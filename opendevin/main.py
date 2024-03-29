@@ -12,7 +12,7 @@ from opendevin.llm.llm import LLM
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run an agent with a specific task")
     parser.add_argument(
-        "-d",
+        "-dir",
         "--directory",
         required=True,
         type=str,
